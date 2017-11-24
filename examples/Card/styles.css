@@ -1,0 +1,29 @@
+.Card {
+  background-color: #ccc;
+  color: #000;
+  border: 0 none;
+  border-radius: 3px;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.Card.Card--yellow {
+  background-color: #ffa;
+  color: #222;
+}
+
+.Card.is-hidden {
+  visibility: hidden;
+}
+
+.Card-header {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.Card-body {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}

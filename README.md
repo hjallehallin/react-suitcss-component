@@ -105,15 +105,13 @@ Output
 
 See more examples in `examples/`
 
-_(soon)_
-
 ## Changelog
 
 0.1.0
  - Initial release
 
 ## Todo
- - Add examples
+ - Add more examples
  - Add tests
  - Add support for is-state as attributes. `<MyComponent isActive>`
 
