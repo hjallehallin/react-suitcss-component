@@ -107,6 +107,9 @@ See more examples in `examples/`
 
 ## Changelog
 
+0.1.1
+  - Add Cards example
+
 0.1.0
  - Initial release
 
