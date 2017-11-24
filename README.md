@@ -115,6 +115,7 @@ _(soon)_
 ## Todo
  - Add examples
  - Add tests
+ - Add support for is-state as attributes. `<MyComponent isActive>`
 
 [sc]: https://suitcss.github.io
 
