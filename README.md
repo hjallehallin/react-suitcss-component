@@ -1,16 +1,18 @@
-# react-suitcss-component
+# React SuitCSS Component
 Create JSX Components with SuitCSS classNames
 
 ## Installation
-`npm install react-suitcss-component`
+```npm install react-suitcss-component```
+
 or
-`yarn add react-suitcss-component`
+
+```yarn add react-suitcss-component```
 
 ## Usage
 
 Create your component
 
-```javascript
+```jsx
 // MyComponent/index.js
 import React from 'react'
 import Component from 'react-suitcss-component'
@@ -28,7 +30,7 @@ export default (props) => {
 ```
 
 Some react view
-```javascript
+```jsx
 import MyComponent from 'components/MyComponent'
 ...
 render() {
