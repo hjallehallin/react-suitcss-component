@@ -59,9 +59,62 @@ Output
 
 ```
 
+### Properties
+
+#### Props for Component
+- **component** (*required*)
+  - Type: `string`
+  - The name of the component. Will generate class `MyComponent`
+- **modifier** (*optional*)
+  - Type: `string`
+  - Space separated list of modifiers to the component.
+  - `modifier='awesome'` will generate class `MyComponent--awesome`
+- **u** (*optional*)
+  - Type: `string`
+  - Space separated list of utility classes.
+  - `u='centerText'` will generate class `u-centerText`
+- **is** (*optional*)
+  - Type: `string`
+  - Space separated list of state classes.
+  - `is='active inFocus'` will generate classes `is-active is-inFocus`
+- **Element** (*optional*)
+  - Type: `string`
+  - Default: `div`
+  - The html tag for the component.
+  - `Element='button'` will generate `<button className='MyComponent'>`
+- `{...props}`
+  - Pass other props, like colSpan or title to the element
+
+#### Props for generated component
+- **modifier** (*optional*)
+  - Type: `string`
+  - Space separated list of modifiers to the component.
+  - `modifier='awesome'` will generate class `MyComponent--awesome`
+- **u** (*optional*)
+  - Type: `string`
+  - Space separated list of utility classes.
+  - `u='centerText'` will generate class `u-centerText`
+- **is** (*optional*)
+  - Type: `string`
+  - Space separated list of state classes.
+  - `is='active inFocus'` will generate classes `is-active is-inFocus`
+- `{...props}`
+  - Pass other props, like colSpan or title to the rootelement
+
 ## Examples
 
 See more examples in `examples/`
+
+_(soon)_
+
+## Changelog
+
+0.1.0
+ - Initial release
+
+## Todo
+ - Add examples
+ - Add tests
 
 
 [sc]: https://suitcss.github.io
