@@ -1,5 +1,5 @@
 # React SuitCSS Component
-Create JSX Components with SuitCSS classNames
+Create JSX Components with [SuitCSS][sc] classNames
 
 ## Installation
 ```npm install react-suitcss-component```
@@ -62,3 +62,6 @@ Output
 ## Examples
 
 See more examples in `examples/`
+
+
+[sc]: https://suitcss.github.io
