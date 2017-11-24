@@ -6,7 +6,7 @@
   "author": "@hjallehallin",
   "license": "MIT",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublishOnly": "yarn build",
     "build": "babel lib -d build"
   },
   "peerDependencies": {
