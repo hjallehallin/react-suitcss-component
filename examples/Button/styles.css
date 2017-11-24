@@ -1,0 +1,15 @@
+.Button {
+  background-color: #ccc;
+  color: #000;
+  border: 0 none;
+  border-radius: 3px;
+}
+
+.Button.Button--primary {
+  background-color: #f0c;
+  color: #fff;
+}
+
+.Button.is-active {
+  opacity: 0.5;
+}
